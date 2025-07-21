@@ -1,0 +1,45 @@
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+extend-select = ["ALL"]
+extend-ignore = [
+    "G004",
+    "D202",
+    "D203",
+    "D213",
+    "E701",
+    "FA102",
+    "TD",
+    "ANN001",
+    "ANN002",
+    "ANN003",
+    "ARG002",
+    "RET504",
+    "TRY400",
+    "PTH123",
+    "UP015",
+    "PGH003",
+    "TID252",
+]
+extend-safe-fixes = [
+    "UP006",
+    "UP007",
+    "UP008",
+    "UP019",
+    "UP032",
+    "UP035",
+    "UP038",
+    "UP045",
+    "FAST001",
+    "FAST002",
+    "ANN204",
+    "TRY201",
+    "TRY401",
+    "RET503",
+    "ISC001",
+    "G201",
+    "G202",
+    "INP001",
+    "TC001",
+]
